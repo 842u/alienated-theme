@@ -1,6 +1,6 @@
 {
   "name": "alienated-theme",
-  "displayName": "alienated-theme",
+  "displayName": "Alienated theme",
   "description": "Alienated Color Theme",
   "version": "0.0.1",
   "engines": {
@@ -14,7 +14,7 @@
       {
         "label": "Alienated Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Alienated Theme-color-theme.json"
+        "path": "./themes/alienated-color-theme.json"
       }
     ]
   }
