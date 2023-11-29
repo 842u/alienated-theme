@@ -64,7 +64,7 @@
       "name": "Variables",
       "scope": ["variable", "string constant.other.placeholder"],
       "settings": {
-        "foreground": "#EEFFFF"
+        "foreground": "#faebd7"
       }
     },
     {
@@ -85,7 +85,7 @@
       "name": "Keyword, Storage",
       "scope": ["keyword", "storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#ffa282"
       }
     },
     {
@@ -105,7 +105,7 @@
         "keyword.other.substitution"
       ],
       "settings": {
-        "foreground": "#89DDFF"
+        "foreground": "#c0ac8c80"
       }
     },
     {
@@ -129,14 +129,14 @@
         "keyword.other.special-method"
       ],
       "settings": {
-        "foreground": "#82AAFF"
+        "foreground": "#FFCB6B"
       }
     },
     {
       "name": "Block Level Variables",
       "scope": ["meta.block variable.other"],
       "settings": {
-        "foreground": "#f07178"
+        "foreground": "#faebd7"
       }
     },
     {
@@ -144,6 +144,38 @@
       "scope": ["support.other.variable", "string.other.link"],
       "settings": {
         "foreground": "#f07178"
+      }
+    },
+    {
+      "name": "String Quotes",
+      "scope": [
+        "punctuation.definition.string.begin.tsx",
+        "punctuation.definition.string.end.tsx",
+        "punctuation.definition.string.begin.ts",
+        "punctuation.definition.string.end.ts"
+      ],
+      "settings": {
+        "foreground": "#faebd7"
+      }
+    },
+    {
+      "name": "JSX Tags",
+      "scope": [
+        "punctuation.definition.tag",
+        "meta.tag.without-attributes.tsx meta.block.tsx meta.function.tsx source.tsx"
+      ],
+      "settings": {
+        "foreground": "#faebd7"
+      }
+    },
+    {
+      "name": "JSX String Node",
+      "scope": [
+        "meta.tag",
+        "meta.jsx.children.tsx meta.tag.without-attributes.tsx meta.jsx.children.tsx meta.tag.tsx meta.jsx.children.tsx meta.tag.tsx meta.jsx.children.tsx meta.tag.without-attributes.tsx meta.block.tsx meta.function.tsx source.tsx"
+      ],
+      "settings": {
+        "foreground": "#C0AC8C"
       }
     },
     {
@@ -174,7 +206,7 @@
         "meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
       ],
       "settings": {
-        "foreground": "#C3E88D"
+        "foreground": "#c0ac8c"
       }
     },
     {
@@ -255,7 +287,7 @@
       "name": "Attributes",
       "scope": ["entity.other.attribute-name"],
       "settings": {
-        "foreground": "#C792EA"
+        "foreground": "#faebd7"
       }
     },
     {
